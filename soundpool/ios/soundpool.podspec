@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'soundpool'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A Flutter sound pool for playing short media files'
   s.description      = <<-DESC
 A Flutter sound pool for playing short media files
@@ -15,8 +15,8 @@ A Flutter sound pool for playing short media files
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  
-  s.ios.deployment_target = '8.0'
+
+  s.platforms = { :ios => "8.0", :tvos => "12.0" }
   s.swift_version = '5.0'
 end
 

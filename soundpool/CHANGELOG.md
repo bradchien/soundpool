@@ -1,3 +1,6 @@
+## 2.4.2
+* Make library buildable on tvOS
+
 ## 2.4.1
 * Support AGP 8.0 (fixes [#121](https://github.com/ukasz123/soundpool/issues/121), thanks to [MrCsabaToth](https://github.com/MrCsabaToth)). 
 ## 2.4.0
